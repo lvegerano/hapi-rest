@@ -1,7 +1,7 @@
 {
-  "name": "hapi-rest-collections",
-  "version": "0.0.1",
-  "description": "PGSQL module that creates CRUD routes for HapiJS",
+  "name": "hapi-rest",
+  "version": "0.1.0",
+  "description": "A bookshelf REST /",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,9 +17,17 @@
   "author": "Luis Vegerano",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.3.3",
-    "knex": "^0.10.0",
-    "lodash": "^4.5.1",
-    "pg": "^4.5.1"
+    "bluebird": "^3.4.0",
+    "bookshelf": "^0.9.5",
+    "knex": "^0.11.5",
+    "lodash": "4.11.1",
+    "pg": "4.5.5",
+    "pluralize": "^1.2.1",
+    "winston": "2.2.0"
+  },
+  "devDependencies": {
+    "code": "^3.0.0",
+    "lab": "^10.7.1",
+    "sinon": "^1.17.4"
   }
 }
